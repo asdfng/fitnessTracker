@@ -3,6 +3,7 @@ from windows.sqlite_interface import DBManager
 import curses
 import sys, os
 
+# *Putting this on hold, I need to investigate textual first
 
 db = DBManager('workouts.db')
 

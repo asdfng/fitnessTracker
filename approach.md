@@ -8,3 +8,4 @@
 [06/24/23-21:12] I need to take some time to make a wireframe for this, otherwise I'll just have no idea what I'm trying to do
 [07/20/23-08:07] I'm wondering if it would be better to have all the sq_lite code just in that one module
 [07/20/23-08:07] actually, now that I'm thinking about it maybe not, since it still needs to close cleanly
+[07/20/23-10:32] Just learned about textual, going to investigate first
