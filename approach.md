@@ -14,3 +14,4 @@
 [07/21/23-21:23] Now I'm thinking the workout screen should be the one at the bottom of the stack
 [07/21/23-21:23] It should be the main screen and the menu can be the top screen
 [07/21/23-21:24]  that way I can push it, and pop it to get the returned workout information
+[07/22/23-10:53] moved css stuff to a different file, will figure out how to seperate later
