@@ -9,3 +9,8 @@
 [07/20/23-08:07] I'm wondering if it would be better to have all the sq_lite code just in that one module
 [07/20/23-08:07] actually, now that I'm thinking about it maybe not, since it still needs to close cleanly
 [07/20/23-10:32] Just learned about textual, going to investigate first
+[07/21/23-21:22] I'm trying to think of the proper structure for this app
+[07/21/23-21:23] At first I thought it would be a good idea to make the menu screen the main screen
+[07/21/23-21:23] Now I'm thinking the workout screen should be the one at the bottom of the stack
+[07/21/23-21:23] It should be the main screen and the menu can be the top screen
+[07/21/23-21:24]  that way I can push it, and pop it to get the returned workout information

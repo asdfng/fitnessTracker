@@ -1,0 +1,52 @@
+Workouts {
+    layout: horizontal;
+    background: $boost;
+    height: 5;
+    margin: 1;
+    max-width: 60;
+    padding: 1;
+}
+
+#workout_list {
+    align: center top;
+}
+
+ExerciseField {
+    align: center middle;
+    margin: 1 0;
+}
+
+#exercise_info {
+    grid-size: 8 1;
+    width: 80;
+    min-height: 3;
+    height: auto;
+}
+
+#exercise_info #e_name {
+    column-span: 3;
+}
+
+#exercise_info #e_cat {
+    column-span: 3;
+}
+
+WOName {
+    width: 25;
+    height: 3;
+    content-align: left middle;
+}
+
+#buttons{
+    max-width: 33;
+    dock: right;
+}
+
+#buttons #start {
+    dock: left;
+    background: $success;
+}
+
+#buttons #export{
+    dock: right;
+}
