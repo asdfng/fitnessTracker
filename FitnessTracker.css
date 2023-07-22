@@ -7,18 +7,45 @@ Workouts {
     padding: 1;
 }
 
+Menu {
+    background: green;
+}
 #workout_list {
     align: center top;
 }
 
-ExerciseField {
+AddWorkout {
     align: center middle;
+    content-align: center top;
+}
+
+AddWorkout #add_workout_screen {
+    align: center middle;
+    width: 70%;
+    height: 70%;
+}
+
+#newworkoutname {
+    max_width: 40%;
+    height: 3;
+    offset-x: 70%;
+}
+
+ExerciseField {
     margin: 1 0;
+    width: 80%;
+}
+
+#input_fields {
+    offset-y: 1;
+}
+
+#exercises {
+    align-horizontal: center;
 }
 
 #exercise_info {
     grid-size: 8 1;
-    width: 80;
     min-height: 3;
     height: auto;
 }

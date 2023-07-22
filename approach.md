@@ -15,3 +15,5 @@
 [07/21/23-21:23] It should be the main screen and the menu can be the top screen
 [07/21/23-21:24]  that way I can push it, and pop it to get the returned workout information
 [07/22/23-10:53] moved css stuff to a different file, will figure out how to seperate later
+[07/22/23-15:59] idk why but for some reason I can't center the workout name text input using align
+[07/22/23-15:59] I have to use offset, I'll figure this out later

@@ -1,5 +1,5 @@
 from textual.app import App, ComposeResult
-from textual.containers import ScrollableContainer, Grid
+from textual.containers import ScrollableContainer, Grid, Container
 from textual.reactive import reactive
 from textual.widgets import Button, Footer, Header, Static, Input
 from textual.screen import ModalScreen
@@ -26,10 +26,16 @@ class AddWorkout(ModalScreen[list]):
         ('r', 'remove_exercise', 'Remove Exercise')]
     
     def compose(self) -> ComposeResult:
-        yield Header()
-        yield Footer()
-        yield Input(placeholder="Workout Name", id="new_name")
-        yield ScrollableContainer(id="exercises")
+        yield Container(
+            Header(),
+            Footer(),
+            Container(
+                #TODO: figure out how to use align for workout name
+                Container(Input(placeholder="Workout Name"),id="newworkoutname"),
+                ScrollableContainer(id="exercises"),
+                id="input_fields"),
+            id="add_workout_screen"
+        )
 
     def action_add_exercise(self) -> None:
         """Add exercise to the add workout section."""
